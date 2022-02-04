@@ -5,7 +5,7 @@ use std::process;
 use std::path::PathBuf;
 use structopt::StructOpt;
 
-const JS_MINIFIER_URL: &str = "https://javascript-minifier.com/raw";
+const JS_MINIFIER_URL: &str = "https://www.toptal.com/developers/javascript-minifier/raw";
 
 #[derive(Debug, StructOpt)]
 #[structopt(name = "js-minifier", about = "Minify a JavaScript file with javascript-minifier.com.")]
